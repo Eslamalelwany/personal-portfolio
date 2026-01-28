@@ -7,6 +7,7 @@ const projects = [
     {id:3, project:"Todo-list",  technology:"React.JS, JavaScript, MaterialUi", img:"/images/photo_2026-01-04_17-14-12.jpg", liveDemo:"https://lambent-dasik-40d281.netlify.app/"},
     {id:4, project:"Landing page",  technology:"HTML, CSS, JavaScript", img:"/images/photo_2026-01-04_17-27-06.jpg", liveDemo:"https://eslamalelwany.github.io/software-house-site/"},
     {id:5, project:"Hangman game",  technology:"HTML, CSS, JavaScript", img:"/images/photo_2026-01-04_17-34-54.jpg", liveDemo:"https://eslamalelwany.github.io/hangman/"},
+    {id:6, project:"Portfolio project",  technology:"REACT.JS, Javascript", img:"/images/WhatsApp Image 2026-01-28 at 5.17.20 AM.jpeg", liveDemo:"https://portfolio-39.netlify.app/"},
 ]
 
 export default function Skills() {
