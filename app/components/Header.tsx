@@ -19,7 +19,7 @@ export default function Header() {
     }
     
     return (
-        <header className="flex font-extralight   flex-row w-[90%]  m-auto justify-between  items-center p-8">
+        <header className="flex font-extralight bg-black text-white   flex-row w-full  m-auto justify-between  items-center p-8">
         <h1 className=" md:text-xl font-extralight lg:text-xl">Eslam Alelwany</h1>
         <div className='relative'>
             <Menu 

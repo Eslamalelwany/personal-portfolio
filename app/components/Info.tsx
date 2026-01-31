@@ -32,7 +32,7 @@ useEffect(() => {
         </div>
             <div className=" w-screen p-2 mt-7 flex flex-col items-center md:mt-10 sm:mt-10  md:ml-16 lg:ml-20 bg-black">
                 <p className="w-full font-extralight md:text-2xl lg:text-4xl mr-auto  lg:indent-1.5 indent-1 text-white">{type}</p>
-                <h1 className="lg:text-8xl text-5xl md:text-7xl font-bold mt-3">Frontend Developer.</h1>
+                <h1 className="lg:text-8xl text-5xl text-white md:text-7xl font-bold mt-3">Frontend Developer.</h1>
             <a target="_blank"  href="https://drive.google.com/file/d/1gKga_RUesL9oRs0kDD6PnDRuUqHBVeyX/view"  className="bg-[#301CA0] p-3  font-extralight mr-auto  cursor-pointer mt-3 text-white rounded-xl text-sm">Download CV</a>
             </div>
         </div>

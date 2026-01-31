@@ -1,5 +1,6 @@
 'use client'
 import { useRef, useEffect } from "react"
+import CarouselSize from '../components/CarouselSize'
 
 const projects = [
     {id:1, project:"E-commerce store",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-05_12-15-20.jpg", liveDemo:"https://westedition.netlify.app/"},
@@ -60,7 +61,8 @@ export default function Skills() {
             >
                 <div className="w-full">
                     <h1 className="text-white font-bold text-3xl">Skills</h1>
-                    <div className="bg-[#0C0C0C] mt-10 p-5 lg:p-10 rounded-xl max-w-full text-2xl lg:text-5xl flex flex-col md:flex-wrap md:flex-row lg:flex-row lg:flex-wrap justify-around lg:items-center font-bold">
+                    <CarouselSize/>
+                    {/* <div className="bg-[#0C0C0C] mt-10 p-5 lg:p-10 rounded-xl max-w-full text-2xl lg:text-5xl flex flex-col md:flex-wrap md:flex-row lg:flex-row lg:flex-wrap justify-around lg:items-center font-bold">
                         <div className="w-full md:w-[50%] lg:p-5 leading-14">
                             <p>HTML</p>
                             <p>CSS</p>
@@ -71,7 +73,7 @@ export default function Skills() {
                             <p>React.JS</p>
                             <p>Next.JS</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
