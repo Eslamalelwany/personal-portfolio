@@ -1,4 +1,6 @@
 'use client'
+
+
 import { useState, useEffect } from "react"
 
 export default function Info() {
@@ -27,13 +29,13 @@ useEffect(() => {
     <img 
         src="/images/photo_2026-01-02_18-56-46.jpg" 
         alt="Profile" 
-        className="w-32 h-32 sm:w-40 sm:h-40 md:w-52 md:h-52 lg:w-[100%] lg:h-64 xl:w-[100%] xl:h-[108%] rounded-full  "
+        className="w-32 h-32 sm:w-40 sm:h-40 md:w-52 md:h-52 lg:w-[100%] lg:h-64 xl:w-[100%] xl:h-[108%] rounded-full "
     />
         </div>
             <div className=" w-screen p-2 mt-7 flex flex-col items-center md:mt-10 sm:mt-10  md:ml-16 lg:ml-20 bg-black">
                 <p className="w-full font-extralight md:text-2xl lg:text-4xl mr-auto  lg:indent-1.5 indent-1 text-white">{type}</p>
-                <h1 className="lg:text-8xl text-5xl text-white md:text-7xl font-bold mt-3">Frontend Developer.</h1>
-            <a target="_blank"  href="https://drive.google.com/file/d/1gKga_RUesL9oRs0kDD6PnDRuUqHBVeyX/view"  className="bg-[#301CA0] p-3  font-extralight mr-auto  cursor-pointer mt-3 text-white rounded-xl text-sm">Download CV</a>
+                <h1 className="lg:text-8xl text-5xl text-white md:text-7xl font-bold mt-3 ">Frontend Developer.</h1>
+            <a target="_blank"  href="https://drive.google.com/file/d/1gKga_RUesL9oRs0kDD6PnDRuUqHBVeyX/view"  className="bg-[#301CA0] p-3  font-extralight mr-auto  cursor-pointer mt-3 text-white rounded-xl text-sm animate-pulse">Download CV</a>
             </div>
         </div>
     )

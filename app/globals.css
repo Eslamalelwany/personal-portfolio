@@ -9,7 +9,7 @@
     border-right-color: #0C0C0C;
     position: absolute;
     top: -19px;
-    left: 272px;
+    left: 253px;
     transform: rotate(90deg);
 }
 .box{
@@ -19,7 +19,9 @@
     right: -13px;
 }
 
-
+ body {
+  background-color: #0C0C0C;
+ }
 
 /* @theme inline {
   --color-background: var(--background);
@@ -143,3 +145,4 @@
   }
 }
  */
+

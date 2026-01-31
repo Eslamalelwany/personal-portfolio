@@ -85,8 +85,8 @@ export default function Skills() {
                 <h1 className="text-white font-bold text-3xl mr-auto">Projects</h1>
                 {projects.map((p) => {
                     return (
-                        <div key={p.id}>
-                            <div className="bg-[#0C0C0C] mt-10 p-5 lg:p-10 rounded-xl max-w-full text-2xl lg:text-5xl flex flex-col md:flex-wrap md:flex-row lg:flex-row lg:flex-wrap justify-around lg:items-center font-bold">
+                        <div key={p.id} >
+                            <div className="bg-[#0C0C0C] border-b-4 border-l-4 hover:scale-105 duration-700 mt-10 p-5 border-gray-700 lg:p-10 rounded-xl max-w-full lg:w-[60%] xl:w-[60%] lg:mr-auto lg:ml-auto xl:mr-auto xl:ml-auto  text-2xl lg:text-5xl flex flex-col md:flex-wrap md:flex-row lg:flex-row lg:flex-wrap justify-around lg:items-center font-bold">
                                 <h3 className="w-full text-lg lg:text-xl">{p.project}</h3>
                                 <div className="pt-4 pb-4 w-full md:w-[70%] mr-auto">
                                     <img src={p.img} alt={`${p.project} screenshot`} className="w-full h-full rounded-xl"/>

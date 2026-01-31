@@ -32,7 +32,7 @@ const skills = [
   {id:5, icon: SiTailwindcss, name: "Tailwind", color: "#06B6D4" },
   {id:6, icon: SiRedux, name: "Redux", color: "#764ABC" },
   {id:7, icon: SiGit, name: "Git", color: "#F05032" },
-  {id:8, icon: SiGithub, name: "GitHub", color: "#181717" },
+  {id:8, icon: SiGithub, name: "GitHub", color: "#FFFFFF" },
   {id:9, icon: SiVite, name: "Vite", color: "#646CFF" },
   {id:10, icon: SiHtml5, name: "HTML", color: "#E34F26" },
   {id:11, icon: SiCss3, name: "CSS", color: "#1572B6" },
