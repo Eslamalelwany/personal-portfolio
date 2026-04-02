@@ -1,16 +1,16 @@
 'use client'
 import { useRef, useEffect } from "react"
 import CarouselSize from '../components/CarouselSize'
-
-const projects = [
-    {id:0, project:"E-commerce store",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-05_12-15-20.jpg", liveDemo:"https://westedition.netlify.app/"},
-    {id:1, project:"Recipe finder",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/poster.jpeg", liveDemo:"https://recipe-finder30.netlify.app/"},
-    {id:2, project:"weather-app", technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-04_15-53-18.jpg", liveDemo:"https://weatherreduxx.netlify.app/"},
-    {id:3, project:"Todo-list",  technology:"React.JS, JavaScript, MaterialUi", img:"/images/photo_2026-01-04_17-14-12.jpg", liveDemo:"https://lambent-dasik-40d281.netlify.app/"},
-    {id:4, project:"Landing page",  technology:"HTML, CSS, JavaScript", img:"/images/photo_2026-01-04_17-27-06.jpg", liveDemo:"https://eslamalelwany.github.io/software-house-site/"},
-    {id:5, project:"Hangman game",  technology:"HTML, CSS, JavaScript", img:"/images/photo_2026-01-04_17-34-54.jpg", liveDemo:"https://eslamalelwany.github.io/hangman/"},
-    {id:6, project:"Portfolio project",  technology:"REACT.JS, Javascript", img:"/images/WhatsApp Image 2026-01-28 at 5.17.20 AM.jpeg", liveDemo:"https://portfolio-39.netlify.app/"},
-]
+import Project from   './project'
+// const projects = [
+//     {id:0, project:"E-commerce store",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-05_12-15-20.jpg", liveDemo:"https://westedition.netlify.app/"},
+//     {id:1, project:"Recipe finder",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/poster.jpeg", liveDemo:"https://recipe-finder30.netlify.app/"},
+//     {id:2, project:"weather-app", technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-04_15-53-18.jpg", liveDemo:"https://weatherreduxx.netlify.app/"},
+//     {id:3, project:"Todo-list",  technology:"React.JS, JavaScript, MaterialUi", img:"/images/photo_2026-01-04_17-14-12.jpg", liveDemo:"https://lambent-dasik-40d281.netlify.app/"},
+//     {id:4, project:"Landing page",  technology:"HTML, CSS, JavaScript", img:"/images/photo_2026-01-04_17-27-06.jpg", liveDemo:"https://eslamalelwany.github.io/software-house-site/"},
+//     {id:5, project:"Hangman game",  technology:"HTML, CSS, JavaScript", img:"/images/photo_2026-01-04_17-34-54.jpg", liveDemo:"https://eslamalelwany.github.io/hangman/"},
+//     {id:6, project:"Portfolio project",  technology:"REACT.JS, Javascript", img:"/images/WhatsApp Image 2026-01-28 at 5.17.20 AM.jpeg", liveDemo:"https://portfolio-39.netlify.app/"},
+// ]
 
 export default function Skills() {
     const aboutRef = useRef(null)
@@ -84,10 +84,14 @@ export default function Skills() {
                 className="text-white sm:mr-10 font-extralight flex flex-col p-2 justify-around items-center w-full mt-2 opacity-0 translate-x-10 transition-opacity duration-500"
             >
                 <h1 className="text-white font-bold text-3xl mr-auto">Projects</h1>
-                {projects.map((p) => {
+                
+                    <Project/>
+                
+                {/* {projects.map((p) => {
                     return (
-                        <div key={p.id} >
-                            <div className="bg-[#0C0C0C] border-b-4 border-l-4 hover:scale-105 duration-700 mt-10 p-5 border-gray-700 lg:p-10 rounded-xl max-w-full lg:w-[60%] xl:w-[60%] lg:mr-auto lg:ml-auto xl:mr-auto xl:ml-auto  text-2xl lg:text-5xl flex flex-col md:flex-wrap md:flex-row lg:flex-row lg:flex-wrap justify-around lg:items-center font-bold">
+                        <div key={p.id} className="" >
+                            
+                            <div style={{zIndex:p.id}}  className=  "bg-[#0C0C0C] border-b-4 border-l-4 hover:scale-105 duration-700 mt-10 p-5 border-[#301CA0] lg:p-10 rounded-xl max-w-full lg:w-[60%] xl:w-[60%] lg:mr-auto lg:ml-auto xl:mr-auto xl:ml-auto  text-2xl lg:text-5xl flex flex-col md:flex-wrap md:flex-row lg:flex-row lg:flex-wrap justify-around lg:items-center font-bold">
                                 <h3 className="w-full text-lg lg:text-xl">{p.project}</h3>
                                 <div className="pt-4 pb-4 w-full md:w-[70%] mr-auto">
                                     <img src={p.img} alt={`${p.project} screenshot`} className="w-full h-full rounded-xl"/>
@@ -102,9 +106,10 @@ export default function Skills() {
                                     View Livedemo
                                 </a>
                             </div>
+
                         </div>
                     )
-                })}
+                })} */}
             </div>
         </div>
     )
