@@ -10,9 +10,9 @@ export default function Projects() {
 ]
 
    return (
-  <div className="relative">
+  <div className="relative ">
     {projects.map((project) => (
-      <div key={project.id} className="panel font-normal">
+      <div key={project.id} className="panel font-normal h-[80vh] md:h-[85vh] lg:h-[100vh] xl:h-[100vh]">
         
         <div className="baby w-[95vw] bg-[#0f1923] border border-white/[0.08] lg:p-10 p-6 rounded-2xl lg:w-[80vw] xl:w-[80vw] mx-auto flex flex-col relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl">
           
