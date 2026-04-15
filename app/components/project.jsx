@@ -1,6 +1,6 @@
 export default function Projects() {
     const projects = [
-    {id:0, project:"E-commerce store",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-05_12-15-20.jpg", liveDemo:"https://westedition.netlify.app/"},
+    {id:0, project:"E-commerce store",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-05_12-15-20.jpg", liveDemo:"https://e-commerce043.netlify.app/"},
     {id:1, project:"Recipe finder",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/poster.jpeg", liveDemo:"https://recipe-finder30.netlify.app/"},
     {id:2, project:"weather-app", technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-04_15-53-18.jpg", liveDemo:"https://weatherreduxx.netlify.app/"},
     {id:3, project:"Todo-list",  technology:"React.JS, JavaScript, MaterialUi", img:"/images/photo_2026-01-04_17-14-12.jpg", liveDemo:"https://lambent-dasik-40d281.netlify.app/"},
