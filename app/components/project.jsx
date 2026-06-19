@@ -1,11 +1,11 @@
 export default function Projects() {
     const projects = [
     {id:0, project:"E-commerce store",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-05_12-15-20.jpg", liveDemo:"https://e-commerce043.netlify.app/"},
-    {id:1, project:"Recipe finder",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/poster.jpeg", liveDemo:"https://recipe-finder30.netlify.app/"},
-    {id:2, project:"weather-app", technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-04_15-53-18.jpg", liveDemo:"https://weatherreduxx.netlify.app/"},
-    {id:3, project:"Todo-list",  technology:"React.JS, JavaScript, MaterialUi", img:"/images/photo_2026-01-04_17-14-12.jpg", liveDemo:"https://lambent-dasik-40d281.netlify.app/"},
-    {id:4, project:"Landing page",  technology:"HTML, CSS, JavaScript", img:"/images/photo_2026-01-04_17-27-06.jpg", liveDemo:"https://eslamalelwany.github.io/software-house-site/"},
-    {id:5, project:"Hangman game",  technology:"HTML, CSS, JavaScript", img:"/images/photo_2026-01-04_17-34-54.jpg", liveDemo:"https://eslamalelwany.github.io/hangman/"},
+    {id:1, project:"Library-App",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/library app.jpeg", liveDemo:"https://library-app-gr4r.vercel.app/"},
+    {id:2, project:"Recipe finder",  technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/poster.jpeg", liveDemo:"https://recipe-finder30.netlify.app/"},
+    {id:3, project:"weather-App", technology:"React.JS, JavaScript, Tailwind, Redux",img:"/images/photo_2026-01-04_15-53-18.jpg", liveDemo:"https://weatherreduxx.netlify.app/"},
+    {id:4, project:"Todo-list",  technology:"React.JS, JavaScript, MaterialUi", img:"/images/photo_2026-01-04_17-14-12.jpg", liveDemo:"https://lambent-dasik-40d281.netlify.app/"},
+    {id:5, project:"Landing page",  technology:"HTML, CSS, JavaScript", img:"/images/photo_2026-01-04_17-27-06.jpg", liveDemo:"https://eslamalelwany.github.io/software-house-site/"},
     {id:6, project:"Portfolio project",  technology:"REACT.JS, Javascript", img:"/images/WhatsApp Image 2026-01-28 at 5.17.20 AM.jpeg", liveDemo:"https://portfolio-39.netlify.app/"},
 ]
 
